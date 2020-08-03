@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">android-livedata</string>
+    <string name="goto_arch_view">goto arch view</string>
+    <string name="increase">increase</string>
+</resources>
