@@ -30,7 +30,7 @@ public class CounterViewModel extends ViewModel {
                 .subscribe(new Consumer<Long>() {
                     @Override
                     public void accept(Long counter) throws Exception {
-                        getCounter().setValue(counter);
+                        getCounter().postValue(counter);
                     }
                 });
     }
